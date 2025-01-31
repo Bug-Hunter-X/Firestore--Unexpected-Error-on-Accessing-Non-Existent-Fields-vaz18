@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a field that doesn't exist in your Firestore document.  For example, if you have a document with a field called `name` but you try to access `address`, you might get an error.  This is different from getting `undefined` because the error might halt the execution of your code.
